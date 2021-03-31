@@ -1,0 +1,22 @@
+<body><br><br><br>
+  <ion-row> <ion-col col-4>
+  <ion-card style="border:blue 1px solid;">
+  <ion-card-content class="card-content" >
+<ion-header>
+  <ion-toolbar color="light">
+    <div item-content style="display: flex; justify-content: space-between; width: 100%"> 
+     <ion-icon name="arrow-back-circle-outline" routerLink="" color="primary" style="font-size: x-large;" >
+        </ion-icon> 
+<ion-title color="primary" ><b>Reset Password</b></ion-title></div>
+</ion-toolbar></ion-header><br><br><ion-list >
+<br><div style="text-align: center;">
+<ion-icon name="mail-open-outline" color="tertiary" ></ion-icon>
+  </div><div style="text-align: center;">
+  <label style="font-family: 'Times New Roman', Times, serif;font-size: x-large;color:brown" >Forgot Your password?</label></div>
+  <ion-input [(ngModel)]="Email"   placeholder="E-mail..."  style="background-color: white;" required></ion-input>
+<div style="text-align: center;">
+<ion-button (click)="forgotPassword(Email)" color="secondary" style="width: 200px;">reset </ion-button>
+<br><ion-label style="font-family: 'Times New Roman', Times, serif;">Already have an account?</ion-label><a style="font-family: 'Times New Roman', Times, serif;font-size: large;" 
+routerLink="/sign-in" >Sign-in</a></div></ion-list>
+</ion-card-content></ion-card>
+</ion-col></ion-row>

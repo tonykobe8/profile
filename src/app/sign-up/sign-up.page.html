@@ -1,0 +1,20 @@
+<body><br><br><br>
+<ion-row><ion-col col-4>
+  <ion-card style="border:blue 1px solid;">
+  <ion-card-content class="card-content" >
+<ion-header><ion-toolbar color="light">
+<div item-content style="display: flex; justify-content: space-between; width: 80%"> 
+<ion-title color="primary" ><b>Sign-up</b></ion-title></div>
+  </ion-toolbar></ion-header><br><br><ion-list ><br>
+  <ion-input [(ngModel)]="firstName"   placeholder="First Name..."  style="background-color: white;"></ion-input>
+ <ion-input [(ngModel)]="lastname"  placeholder="Last Name..."  style="background-color: white;"></ion-input>
+  <ion-input [(ngModel)]="phoneNumber"   placeholder="Contact..."  style="background-color: white;"></ion-input>
+  <ion-input [(ngModel)]="Email"   placeholder="E-mail..."  style="background-color: white;"></ion-input>
+  <ion-input [(ngModel)]="Password"  placeholder="Password..."  style="background-color: white;"></ion-input>
+<div style="text-align: center;">
+<ion-button  (click)="signUp()"  color="secondary" style="width: 236px;">submit</ion-button>
+<ion-label style="font-family: 'Times New Roman', Times, serif;">Already have an account?</ion-label>
+<a href routerLink="/sign-in" style="font-family:'Times New Roman', Times, serif;font-size: large;">
+  Sign-in</a>
+<br></div></ion-list>
+</ion-card-content></ion-card></ion-col></ion-row>

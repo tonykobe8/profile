@@ -1,0 +1,24 @@
+body{
+    background-color: blue;
+}p{ background-color: whitesmoke;
+    height: 400px;width: 700px;
+}div{
+    border-bottom-left-radius: 50% !important;
+    border-top-right-radius: 50% !important;
+} ion-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: oblique;
+    color: brown ;
+  }
+  label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    color:blue ;
+  }
+  
+  
+ion-icon:hover {
+    color: blue;
+  }

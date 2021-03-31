@@ -1,0 +1,33 @@
+<body><br><br><br>
+
+    <ion-row><ion-col col-4>
+    <ion-card style="border:blue 1px solid;">
+    <ion-card-content class="card-content" >
+<ion-header>
+    <ion-toolbar color="light">
+      <div item-content style="display: flex; justify-content: space-between; width: 100%"> 
+       <ion-icon name="arrow-back-circle-outline" routerLink="" color="primary" style="font-size: x-large;" >
+          </ion-icon> 
+<ion-title color="primary" ><b>Login</b></ion-title></div>
+</ion-toolbar></ion-header><br><br>
+<ion-list ><br>
+    <ion-input [(ngModel)]="Email"   placeholder="E-mail..."  style="background-color: white;" required></ion-input>
+    <div>
+<ion-input [(ngModel)]="Password" placeholder="Password..." style="background-color:white;" required="required"></ion-input>
+</div><div style="text-align: center;">
+       <ion-button (click)="login()" color="secondary" style="width: 236px;">log-in</ion-button>
+        <br>
+       <label  style="color:grey;font-family: 'Times New Roman', Times, serif;" >or</label></div>
+       <div style="text-align: center;">
+       <ion-button color="success" style="width: 160px;" routerLink="/sign-up">New Account</ion-button></div>
+       <div style="text-align: center;"><br>
+      <label style="color:grey">Forgot Password?</label><a routerLink="/reset">Reset</a><br><br>
+      <label class="sidebar" >
+<a href="#sign-in" routerLink="/projects" style="font-size:small;">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;<ion-icon name="git-merge-outline" color="secondary" size="small"></ion-icon>
+      &nbsp;Visit as Guest</a>
+      </label>
+  </div></ion-list>
+</ion-card-content></ion-card>
+  </ion-col></ion-row>

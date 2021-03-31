@@ -1,0 +1,47 @@
+<body>
+<div item-content style="display: flex; justify-content: space-between; width: 90%">
+  
+  <p><content><h1><ion-toolbar  color="light"  >
+      <div item-content style="display: flex; justify-content: space-between; width: 100%"> 
+      <ion-icon name="arrow-back-circle-outline" routerLink="" color="primary" style="font-size: x-large;" >
+      </ion-icon> 
+      <ion-title style="font-family: 'Times New Roman', Times, serif;" color="tertiary"><b>EXPERIENCE</b> </ion-title>
+      </div></ion-toolbar></h1>
+      <H2>JULY 2020 - MARCH 2021 | System Developer[<b>CodeTribe Learnership</b>] </H2>
+    <H2>Programming Languages</H2>
+      <div *ngFor='let ref of position' style="color: blue; font-size: 18px;">
+     &nbsp; {{ref.post}}
+      </div><br>
+      <H2>Responsibilities</H2>
+      <li *ngFor='let ref of language'>
+        {{ref.langu}}
+      </li><br><H2>References</H2>
+      <div item-content style="display: flex; justify-content: space-between;width:99%">
+        <div *ngFor='let ref of reference' style="color: blue;">
+          Contact person : {{ref.Name}} {{ref.sname}}<br>
+          Contact  Details:{{ref.tel}} or {{ref.email}} <br>
+          Occupation &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: {{ref.position}}
+        </div>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <div1 *ngFor='let ref of reference1' style="color:rgb(52, 18, 202);">
+          Contact person : {{ref.Name}} {{ref.sname}}<br>
+          Contact  Details: {{ref.tel}}  {{ref.email}} <br>
+          Occupation &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;: {{ref.position}}
+        </div1></div>
+</content></p>
+  <p1><br>
+    <H2><b>Other Info:</b></H2>
+    <ion-list></ion-list>
+<h4>&nbsp;Languages :</h4>
+<label>&nbsp;Sepedi[Speak . Write . Read] <br>
+&nbsp;English[Speak . Write . Read]  <br>
+&nbsp;Afrikaans[Speak . Write . Read] </label>
+<ion-list></ion-list>
+<h4>&nbsp;Skills :</h4>
+<label>&nbsp;Team Building . Problem Solving . Decision Making </label>
+<ion-list></ion-list>
+<h4>&nbsp;Interest :</h4>
+<label>&nbsp;Coding . Singing . Sports</label>
+<ion-list></ion-list>
+
+  </p1>
+  </div>

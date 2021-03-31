@@ -1,0 +1,19 @@
+body{background-color: turquoise;}
+  a,ion-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}ion-list{
+      background-color:turquoise;
+      padding: 1px;
+      line-height: 34px;
+      margin:5px
+  }ion-card{
+    width: 1000px;
+  } ion-button{ //line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+border-bottom-right-radius:8px ;
+
+}p{
+  margin:5px;
+  border-radius:8px;
+}

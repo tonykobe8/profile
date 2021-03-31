@@ -1,0 +1,25 @@
+body{background-color: turquoise;}
+    li{font-family: 'Times New Roman', Times, serif;
+        color:blue;
+        font-size: 18px;margin-left: 100px;
+        }
+p{font-family: 'Times New Roman', Times, serif;//background-color:whitesmoke;
+               //height: 600px;
+                width: 775px;
+                font-size: 19px;
+                border-bottom-left-radius:8px; 
+                border-bottom-right-radius: 8px ;margin-left: 100px;}  
+ion-card {width: 975px;
+            margin:auto;
+}
+ion-toolbar{
+    width: 765px;
+    margin-left: 100px;
+}ion-button{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    height: 30px;width: 775px;
+}ion-list{background-color: aqua;
+    padding: 1px;margin:1px;width: 775px; 
+    margin-left: 100px; 
+      }
